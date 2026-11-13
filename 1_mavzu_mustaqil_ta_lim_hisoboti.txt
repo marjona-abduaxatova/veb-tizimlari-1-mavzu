@@ -1,0 +1,55 @@
+O'ZBEKISTON RESPUBLIKASI OLIY TA'LIM, FAN VA INNOVATSIYALAR VAZIRLIGI
+MIRZO ULUG'BEK NOMIDAGI O'ZBEKISTON MILLIY UNIVERSITETI JIZZAX FILIALI
+AXBOROT TIZIMLARi VA TEXNOLOGIYALARI KAFEDRASI
+
+"Veb tizimlari" fanidan mustaqil ta'lim
+1-MAVZU: Veb tizimlarga kirish, Internet va WWW arxitekturasi
+
+Bajardi: 60610100-ATT yo'nalishi talabasi Abduaxatova Marjona
+
+
+1. AMALIY TOPSHIRIQ NATIJALARI (Konsol utilitalari tahlili)
+--------------------------------------------------------------------------------
+Tarmoq marshrutlari va kechikish vaqtlarini (latency) o'rganish maqsadida 
+quyidagi 3 ta yirik veb-server tahlil qilindi:
+
+1) google.com
+   - IP manzil: 142.250.184.46
+   - O'rtacha kechikish (RTT / Latency): ~32 ms
+   - Oraliq tugunlar (Hops) soni: 9 ta
+
+2) yandex.ru
+   - IP manzil: 5.255.255.77
+   - O'rtacha kechikish (RTT / Latency): ~22 ms
+   - Oraliq tugunlar (Hops) soni: 7 ta
+
+3) bbc.com
+   - IP manzil: 151.101.64.81
+   - O'rtacha kechikish (RTT / Latency): ~75 ms
+   - Oraliq tugunlar (Hops) soni: 14 ta
+
+
+2. TAHLILIY REFERAT: "Web 1.0 dan Web 3.0 gacha texnologik evolyutsiya"
+--------------------------------------------------------------------------------
+- Web 1.0 (1990-2000): "Faqat o'qish" davri. Statik HTML sahifalar, o'zaro aloqa 
+  va foydalanuvchi tomonidan kontent yaratish imkoniyati bo'lmagan.
+- Web 2.0 (2000-hozirgacha): "O'qish va yozish" davri (Ijtimoiy veb). Foydalanuvchilar 
+  faol ravishda kontent yaratadi, markazlashgan yirik korporatsiyalar (Google, Meta) 
+  ekotizimni boshqaradi.
+- Web 3.0 va Semantik to'r: Blokcheyn, markazlashmagan ilovalar (DApps), sun'iy 
+  intellekt va mashina o'qishi asosida qurilayotgan kelajak avlod arxitekturasi.
+
+
+3. MUAMMOLI KEYS TAHLILI
+--------------------------------------------------------------------------------
+Savol: Nega bitta tarmoqdagi ikkita kompyuter bir xil domen manziliga har xil 
+kechikish (latency) bilan ulanishi mumkin?
+
+Javob va tahlil:
+1. DNS serverlarining farqi: Har xil DNS serverlardan (masalan, 1.1.1.1 yoki 
+   provayderning lokal DNS serveri) foydalanish so'rov vaqvatiga ta'sir qiladi.
+2. Tarmoqdagi yuklama: Kompyuterlardan birida fonda katta fayllar yuklanayotgan 
+   bo'lsa, tarmoq kanali band bo'lib, kechikish vaqti ortadi.
+3. Wi-Fi signal kuchi: Routerdan masofa va radioto'lqinlar to'siqligi tarmoq 
+   tezligiga bevosita ta'sir ko'rsatadi.
+```
